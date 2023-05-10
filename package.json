@@ -4,7 +4,7 @@
   "description": "pure-sprint-js",
   "main": "index.js",
   "scripts": {
-    "dev": "http-server src -p 3000",
+    "dev": "http-server src -p 3000 -c-1",
     "update:packages": "ncu -u && npm install"
   },
   "license": "MIT",
